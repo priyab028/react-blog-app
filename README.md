@@ -5,14 +5,13 @@ This is a simple React application for managing and displaying blog content. It 
 ## Getting Started
 
 ## Features
-- Navigate between different routes using React Router.
-- Display a list of blog posts on the home page.
-- Create new blog posts using the Create page.
-- View individual blog details on the BlogDetails page.
-- Handle 404 errors with the PageNotFound component.
+- Seamlessly navigate through the app with React Router, ensuring smooth transitions between different sections.
+- Enjoy a curated showcase of captivating blog previews on the home page, offering a glimpse into the wide range of available content.
+- Craft and publish your own insightful blogs using the Create page, fostering an environment of creativity and knowledge-sharing.
+- Immerse yourself in the depth of individual blog narratives on the BlogDetails page, allowing readers to connect deeply with each story.
+- Efficiently manage and maintain the flow of data with a JSON server, streamlining the creation, reading, and deletion of blog content.
+- Handle unexpected navigational scenarios gracefully with the PageNotFound component, ensuring a seamless user experience even in rare situations.
 
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -39,3 +38,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## JSON Server
+The blog data is managed using a JSON server. To start the JSON server, run:
+
+```bash
+npx json-server --watch data/db.json --port 8000
+```
