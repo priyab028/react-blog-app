@@ -12,6 +12,9 @@ This is a simple React application for managing and displaying blog content. It 
 - Efficiently manage and maintain the flow of data with a JSON server, streamlining the creation, reading, and deletion of blog content.
 - Handle unexpected navigational scenarios gracefully with the PageNotFound component, ensuring a seamless user experience even in rare situations.
 
+![Screenshot](blog-home.png)
+![Screenshot](blog-details.png)
+![Screenshot](create-blog.png)
 
 In the project directory, you can run:
 
