@@ -11,7 +11,6 @@ This is a simple React application for managing and displaying blog content. It 
 - View individual blog details on the BlogDetails page.
 - Handle 404 errors with the PageNotFound component.
 
-To get a copy of this project up and running on your local machine, follow these instructions.
 
 ## Available Scripts
 
